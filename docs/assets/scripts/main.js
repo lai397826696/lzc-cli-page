@@ -1,0 +1,1 @@
+"use strict";$(function(n){var o=n("html, body");n("#scroll_top").on("click",function(){return o.animate({scrollTop:0},600),!1});n=[1,2,3,4,5].map(function(n){return 2*n});console.log(n),new Promise(function(n,o){setTimeout(function(){return n(111)},1e3)}).then(function(n){return console.log(n)})});
